@@ -8,24 +8,24 @@
 // dentro das aspas = string (texto), fora das aspas = number (numero)
 
 
-const nome = 'Thomas Paz';
+const nome = 'Thomas';
+
+const sobronome = 'Paz';
+
+const idade = 22;
+
+const peso = 77;
+
+const altura = 1.71;
+
+let imc = peso / (altura * altura);
+
+let nascimento = (2024 - idade);
+
+console.log (`${nome} ${sobronome} tem ${idade} anos, pesa ${peso}kg, mede ${altura}m, e seu imc é de ${imc}, ${nome} Nasceu em ${nascimento}.`)
 
 
-const idade = '21 anos'
 
 
 
-const peso = '77kg';
 
-
-
-const altura = '171cm'
-
-
-
-const firstnum = 16;
-const secondnum = 18;
-
-const resultado = firstnum / secondnum;
-
-console.log (typeof firstnum);
